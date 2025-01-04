@@ -117,6 +117,7 @@ import Advantage from "@/components/Advantage"
 import Portfolio from "@/components/Portfolio"
 import Intern from "@/components/Intern"
 import Model from "@/components/Model"
+// import 'animate.css';
 export default function Home() {
   return (
     <div style={{ textAlign: 'center', marginTop: '50px' }}>

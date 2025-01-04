@@ -3,11 +3,11 @@ import React from "react";
 
 const HeroSection = () => {
   return (
-    <section className="bg-[#0e0e29] text-white py-12 px-6 md:px-16">
+    <section className="bg-[#0e0e29] text-white py-0 px-6 md:px-16 animate__animated animate__fadeIn">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
         {/* Left Section */}
         <div className="max-w-lg">
-          <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-6">
+          <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-6 animate-fadeIn">
             Driving Sales and Capturing Attention Through <span className="text-yellow-400">Graphic Designs</span>
           </h1>
           <ul className="list-disc pl-5 mb-6 space-y-2">
@@ -15,12 +15,12 @@ const HeroSection = () => {
             <li>Communicate your brand's story.</li>
             <li>Impactful Marketing Collateral.</li>
           </ul>
-          <button className="bg-blue-600 text-white px-6 py-3 rounded-md font-medium hover:bg-blue-700">
+          <button className="bg-blue-600 text-white px-6 py-3 rounded-md font-medium hover:bg-blue-700 animate-bounceIn">
             Book a Demo
           </button>
         </div>
         <div className="mt-10 md:mt-0">
-          <div className="bg-white text-black rounded-lg shadow-lg p-6 relative">
+          <div className="bg-white text-black rounded-lg shadow-lg p-6 relative animate-fadeIn">
             <img
               src="image copy 3.png"
               alt="Graphic Designer"
@@ -38,29 +38,26 @@ const HeroSection = () => {
             </div>
           </div>
         </div>
-
       </div>
-       
-
 
       {/* Bottom Section */}
       <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
         <div>
-          <span className="text-yellow-400 text-3xl">📅</span>
+          <span className="text-yellow-400 text-3xl animate-bounceIn">📅</span>
           <h3 className="text-xl font-semibold mt-4">Punctuality Meets Perfection</h3>
           <p className="text-gray-400 mt-2">
             We deliver creatives, precise designs on schedule, ensuring excellence for your brand every time.
           </p>
         </div>
         <div>
-          <span className="text-yellow-400 text-3xl">✨</span>
+          <span className="text-yellow-400 text-3xl animate-bounceIn">✨</span>
           <h3 className="text-xl font-semibold mt-4">Showcase Your Brand's Personality</h3>
           <p className="text-gray-400 mt-2">
             Whether it's minimalist elegance or bold statements, we tailor designs that resonate with your audience.
           </p>
         </div>
         <div>
-          <span className="text-yellow-400 text-3xl">📈</span>
+          <span className="text-yellow-400 text-3xl animate-bounceIn">📈</span>
           <h3 className="text-xl font-semibold mt-4">Engage with Strategic Visuals</h3>
           <p className="text-gray-400 mt-2">
             From social media posts to digital ads, our graphics are crafted to drive engagement and action.
