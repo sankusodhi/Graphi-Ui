@@ -1,10 +1,10 @@
 // /app/home/page.js
-import Navbar from '@/components/Navbar';  // Assuming you have a Navbar component
+import Navibar from '@/components/Navibar';  // Assuming you have a Navbar component
 
 export default function Home() {
   return (
     <div>
-      <Navbar />
+      <Navibar />
       <h1>Welcome to the Home Page</h1>
       <p>This is the Home Page content.</p>
     </div>

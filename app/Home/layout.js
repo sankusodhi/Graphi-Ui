@@ -1,10 +1,10 @@
 // /app/layout.js
-import Navbar from '@/components/Navbar';  // Assuming Navbar is in components folder
+import Navibar from '@/components/Navibar';  // Assuming Navbar is in components folder
 
 export default function Layout({ children }) {
   return (
     <div>
-      <Navbar />
+      <Navibar />
       <main>{children}</main>
     </div>
   );
